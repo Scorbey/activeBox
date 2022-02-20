@@ -1,0 +1,126 @@
+@media (max-width: 991px) {
+
+   .nav {
+      display: none;
+      width: 100%;
+      flex-direction: column;
+      text-align: right;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: #31344e;
+   }
+   .nav.show {
+      display: flex;
+   }
+   .nav__link {
+      padding: 7px 15px;
+
+
+   }
+   .burger {
+      display: block;
+   }
+   .intro__title {
+      font-size: 45px ;
+   }
+   .intro__subtitle {
+      font-size: 18px;
+   }
+   .features__item {
+      width: 50%;
+   }
+   .works__item {
+      height: 300px;
+      width: 50%;
+   }
+   .team__item {
+      width: 50%;
+      flex-wrap: wrap;
+      text-align: center;
+   }
+   .team__photo {
+      margin-left: auto;
+      margin-right: auto;
+   }
+   .rewiews__photo {
+      width: 100%;
+      margin: 15px 0px;
+      overflow: hidden;
+
+   }
+   .rewiews__content {
+   width: 100%;
+   padding: 40px 20px 15px 0;
+
+   }
+   .rewiews__img {
+      min-width: 100%;
+
+   }
+   .rewiews__txt {
+      font-size: 26px;
+   }
+}
+@media (max-width: 767px) {
+   .intro {
+      height: auto;
+      padding-top: 130px;
+      padding-bottom: 30px;
+   }
+   .intro__title {
+      font-size: 35px ;
+   }
+   .intro__subtitle {
+      margin-bottom: 30px;
+      font-size: 16px;
+   }
+   .features {
+      margin: 40px 0;
+   }
+   .features__item {
+      padding-left:  0 ;
+      padding-right: 0;
+      width: 100%;
+   }
+   .works__item {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      height: 300px;
+      border-right: hidden;
+   }
+   .works__img {
+      min-width: 100%;
+
+   }
+   .team {
+      margin: 60px 0 30px;
+   }
+   .team__item {
+      width: 100%;
+   }
+   .btn--long {
+      min-width: 260px;
+   }
+   .download__title {
+      font-size: 22px;
+   }
+   .footer__inner {
+      padding: 30px 0;
+   }
+   .footer__block {
+      width: 100%;
+      margin-bottom: 20px;
+      padding-left: 0;
+      padding-right: 0;
+   }
+   .footer__block:last-child {
+      margin-bottom: 0;
+   }
+}
+@media (max-width: 414px) {
+   .rewiews__img {
+      right: -100px;
+   }
+}
